@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Só Track Boa Countdown</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-overlay"></div>
+
+    <main class="container">
+
+        <div class="hero">
+            <span class="event-tag">05.06.2026 • 16:00</span>
+
+            <h1>SÓ TRACK BOA</h1>
+            <p class="subtitle">
+                Contagem regressiva
+            </p>
+        </div>
+
+        <section class="countdown">
+
+            <div class="time-box">
+                <div class="flip-container" id="days">
+                    <div class="digit current">00</div>
+                </div>
+                <span>Dias</span>
+            </div>
+
+            <div class="time-box">
+                <div class="flip-container" id="hours">
+                    <div class="digit current">00</div>
+                </div>
+                <span>Horas</span>
+            </div>
+
+            <div class="time-box">
+                <div class="flip-container" id="minutes">
+                    <div class="digit current">00</div>
+                </div>
+                <span>Minutos</span>
+            </div>
+
+            <div class="time-box">
+                <div class="flip-container" id="seconds">
+                    <div class="digit current">00</div>
+                </div>
+                <span>Segundos</span>
+            </div>
+
+        </section>
+
+        <section class="playlist-card">
+
+            <div class="spotify-header">
+                <div class="spotify-dot"></div>
+                <div>
+                    <small>Playlist do Evento</small>
+                    <h2>Pra entrar no clima</h2>
+                </div>
+            </div>
+
+            <iframe
+                style="border-radius:20px"
+                src="https://open.spotify.com/embed/playlist/2X1gNyLnK9W8vWTmAwv7hO?utm_source=generator"
+                width="100%"
+                height="352"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
