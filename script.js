@@ -1,6 +1,6 @@
 // script.js
 
-const targetDate = new Date("2026-06-05T16:00:00-03:00");
+const targetDate = new Date("2026-06-09T17:25:00-03:00");
 
 const previousValues = {
     days: "",
